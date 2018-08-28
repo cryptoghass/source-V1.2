@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="PNDSupply">
+    <widget class="QLabel" name="PNDRSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="PNDDemand">
+    <widget class="QLabel" name="PNDRDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyPND">
+    <widget class="QPushButton" name="BuyPNDR">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy PND</string>
+      <string>Buy PNDR</string>
      </property>
      <property name="icon">
       <iconset resource="../pandora.qrc">
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>PND</string>
+      <string>PNDR</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>PND</string>
+      <string>PNDR</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputPND">
+    <widget class="QLineEdit" name="UnitsInputPNDR">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellPNDBTN">
+    <widget class="QPushButton" name="SellPNDRBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell PND</string>
+      <string>Sell PNDR</string>
      </property>
      <property name="icon">
       <iconset resource="../pandora">
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>PND Available:</string>
+         <string>PNDR Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="PNDAvailableLabel">
+       <widget class="QLabel" name="PNDRAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelPND">
+       <widget class="QLabel" name="labelPNDR">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>PND</string>
+         <string>PNDR</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="PNDBalanceLabel">
+    <widget class="QLabel" name="PNDRBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>PND Balance:</string>
+      <string>PNDR Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="PNDAvailableLabel_2">
+    <widget class="QLabel" name="PNDRAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>PND Available:</string>
+      <string>PNDR Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>PND Pending:</string>
+      <string>PNDR Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="PNDPendingLabel">
+    <widget class="QLabel" name="PNDRPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex PND Deposit Address:</string>
+      <string>Bittrex PNDR Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,7 +2941,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate PND Deposit Address</string>
+      <string>Generate PNDR Deposit Address</string>
      </property>
      <property name="icon">
       <iconset resource="../pandora.qrc">
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertPND">
+     <widget class="QPushButton" name="btnConvertPNDR">
       <property name="geometry">
        <rect>
         <x>260</x>

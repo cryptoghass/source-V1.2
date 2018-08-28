@@ -1,4 +1,4 @@
-Building PND
+Building PNDR
 
 Use the autogen script to prepare the build environment.
 
@@ -10,4 +10,4 @@ Always verify the signatures and checksums.
 
 See doc/build-*.md for instructions on building pandorad,
 the intended-for-services, no-graphical-interface, reference
-implementation of PND.
+implementation of PNDR.

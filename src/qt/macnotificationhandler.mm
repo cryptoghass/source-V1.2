@@ -15,7 +15,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.pandora.PND-Qt";
+        return @"io.pandora.PNDR-Qt";
     } else {
         return [self __bundleIdentifier];
     }

@@ -1023,7 +1023,7 @@ void BitcoinGUI::message(const QString& title, const QString& message, unsigned 
             break;
         }
     }
-    // Append title to "PND - "
+    // Append title to "PNDR - "
     if (!msgType.isEmpty())
         strTitle += " - " + msgType;
 

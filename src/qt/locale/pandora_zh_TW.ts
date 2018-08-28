@@ -62,11 +62,11 @@
         <translation>收款位址</translation>
     </message>
     <message>
-        <source>These are your PND addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your PNDR addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>這些是你要付款過去的達世幣位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
     <message>
-        <source>These are your PND addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your PNDR addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>這些是你用來收款的達世幣位址。建議在每次交易時，都使用一個新的收款位址。</translation>
     </message>
     <message>
@@ -188,7 +188,7 @@
         <translation>錢包已加密</translation>
     </message>
     <message>
-        <source>PND will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pandoras from being stolen by malware infecting your computer.</source>
+        <source>PNDR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pandoras from being stolen by malware infecting your computer.</source>
         <translation>達世幣軟體現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取達世幣。</translation>
     </message>
     <message>
@@ -255,7 +255,7 @@
         <translation>發送(&amp;S)</translation>
     </message>
     <message>
-        <source>Send coins to a PND address</source>
+        <source>Send coins to a PNDR address</source>
         <translation>付錢給一個達世幣位址</translation>
     </message>
     <message>
@@ -303,7 +303,7 @@
         <translation>選項(&amp;O)...</translation>
     </message>
     <message>
-        <source>Modify configuration options for PND</source>
+        <source>Modify configuration options for PNDR</source>
         <translation>修改達世幣軟體的設定選項</translation>
     </message>
     <message>
@@ -355,7 +355,7 @@
         <translation>簽署訊息(&amp;M)...</translation>
     </message>
     <message>
-        <source>Sign messages with your PND addresses to prove you own them</source>
+        <source>Sign messages with your PNDR addresses to prove you own them</source>
         <translation>用達世幣位址簽署訊息來證明位址是你的</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>驗證訊息(&amp;V)...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PND addresses</source>
+        <source>Verify messages to ensure they were signed with specified PNDR addresses</source>
         <translation>驗證訊息是用來確定訊息是用指定的達世幣位址簽署的</translation>
     </message>
     <message>
@@ -463,7 +463,7 @@
         <translation>正在同步額外的數據: %p%</translation>
     </message>
     <message>
-        <source>Show the Pandora Core help message to get a list with possible PND command-line options</source>
+        <source>Show the Pandora Core help message to get a list with possible PNDR command-line options</source>
         <translation>顯示達世幣核心的說明訊息，來取得可用命令列選項的列表</translation>
     </message>
     <message>
@@ -487,7 +487,7 @@
         <translation>分頁工具列</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to PND network</source>
+        <source>%n active connection(s) to PNDR network</source>
         <translation><numerusform>%n 個運作中的達世幣網路連線</numerusform></translation>
     </message>
     <message>
@@ -892,15 +892,15 @@ Address: %4
         <translation>匿名發送配置</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PND's configuration screen.</source>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PNDR's configuration screen.</source>
         <translation>匿名發送已成功設置為一般(%1到2次循環)。你可以隨時打開達世幣配置窗口來修改。</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PND's configuration screen.</source>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PNDR's configuration screen.</source>
         <translation>匿名發送已成功設置為高(%1到8次循環)。你可以隨時打開達世幣配置窗口來修改。</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PND's configuration screen.</source>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PNDR's configuration screen.</source>
         <translation>匿名發送已成功設置為最高(%1到16次循環)。你可以隨時打開達世幣配置窗口來修改。</translation>
     </message>
 </context>
@@ -943,7 +943,7 @@ Address: %4
         <translation>編輯付款位址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PND address.</source>
+        <source>The entered address "%1" is not a valid PNDR address.</source>
         <translation>輸入的位址 %1 並不是有效的達世幣位址。</translation>
     </message>
     <message>
@@ -1052,7 +1052,7 @@ Address: %4
         <translation>因為這是程式第一次啓動，你可以選擇達世幣核心儲存資料的地方。</translation>
     </message>
     <message>
-        <source>Pandora Core will download and store a copy of the PND block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Pandora Core will download and store a copy of the PNDR block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>達世幣核心會下載並儲存一份達世幣區塊鏈的副本。至少有 %1GB 的資料會儲存到這個目錄中，並且還會持續增長。另外錢包資料也會儲存在這個目錄。</translation>
     </message>
     <message>
@@ -1118,11 +1118,11 @@ Address: %4
         <translation>主要(&amp;M)</translation>
     </message>
     <message>
-        <source>Automatically start PND after logging in to the system.</source>
+        <source>Automatically start PNDR after logging in to the system.</source>
         <translation>在登入系統後自動啓動達世幣軟體。</translation>
     </message>
     <message>
-        <source>&amp;Start PND on system login</source>
+        <source>&amp;Start PNDR on system login</source>
         <translation>系統登入時啟動達世幣(&amp;S)</translation>
     </message>
     <message>
@@ -1150,7 +1150,7 @@ Address: %4
         <translation>此金額為關閉匿名發送的門檻。</translation>
     </message>
     <message>
-        <source>Amount of PND to keep anonymized</source>
+        <source>Amount of PNDR to keep anonymized</source>
         <translation>保持匿名的達世幣數量</translation>
     </message>
     <message>
@@ -1170,7 +1170,7 @@ Address: %4
         <translation>接受外來連線</translation>
     </message>
     <message>
-        <source>Connect to the PND network through a SOCKS5 proxy.</source>
+        <source>Connect to the PNDR network through a SOCKS5 proxy.</source>
         <translation>透過 SOCKS5 代理伺服器來連線到達世幣網路。</translation>
     </message>
     <message>
@@ -1202,7 +1202,7 @@ Address: %4
         <translation>網絡(&amp;N)</translation>
     </message>
     <message>
-        <source>Automatically open the PND client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the PNDR client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>自動在路由器上開放達世幣的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
     </message>
     <message>
@@ -1254,7 +1254,7 @@ Address: %4
         <translation>用戶界面語言:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PND.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting PNDR.</source>
         <translation>可以在這裡設定用戶介面的語言。這個設定在重啓達世幣軟體後才會生效。</translation>
     </message>
     <message>
@@ -1343,7 +1343,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>表單</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PND network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PNDR network after a connection is established, but this process has not completed yet.</source>
         <translation>顯示的資訊可能是過期的。跟達世幣網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
     </message>
     <message>
@@ -1568,7 +1568,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>無效的付款位址 %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PND address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid PNDR address or malformed URI parameters.</source>
         <translation>沒辦法解析 URI 位址！可能是因為達世幣位址無效，或是 URI 參數格式錯誤。</translation>
     </message>
     <message>
@@ -1654,7 +1654,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>金額</translation>
     </message>
     <message>
-        <source>Enter a PND address (e.g. %1)</source>
+        <source>Enter a PNDR address (e.g. %1)</source>
         <translation>輸入達世幣位址 (例如 %1)</translation>
     </message>
     <message>
@@ -1740,7 +1740,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>連線數</translation>
     </message>
     <message>
-        <source>Open the PND debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the PNDR debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>從目前的資料目錄下開啓達世幣軟體的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
     </message>
     <message>
@@ -1944,7 +1944,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>輸出:</translation>
     </message>
     <message>
-        <source>Welcome to the PND RPC console.</source>
+        <source>Welcome to the PNDR RPC console.</source>
         <translation>歡迎使用達世幣 RPC 主控台。</translation>
     </message>
     <message>
@@ -2007,7 +2007,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>重複使用現有的收款位址(不建議)(&amp;e)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PND network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PNDR network.</source>
         <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到達世幣網路上。</translation>
     </message>
     <message>
@@ -2019,7 +2019,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>跟新收款位址關聯的標記，可以不填。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PND network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PNDR network.</source>
         <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。&lt;br&gt;注意: 這個訊息不會隨著付款送到達世幣網路上。</translation>
     </message>
     <message>
@@ -2444,7 +2444,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>只付最低手續費 %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid PND address</source>
+        <source>Warning: Invalid PNDR address</source>
         <translation>警告: 無效的達世幣位址</translation>
     </message>
     <message>
@@ -2467,7 +2467,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>付給:(&amp;T)</translation>
     </message>
     <message>
-        <source>The PND address to send the payment to</source>
+        <source>The PNDR address to send the payment to</source>
         <translation>接收付款的達世幣位址</translation>
     </message>
     <message>
@@ -2507,7 +2507,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>訊息:</translation>
     </message>
     <message>
-        <source>A message that was attached to the pandora: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PND network.</source>
+        <source>A message that was attached to the pandora: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PNDR network.</source>
         <translation>附加在達世幣付款協議 URI 中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到達世幣網路上。</translation>
     </message>
     <message>
@@ -2557,7 +2557,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>你可以用自己的位址簽署訊息，來證明你對位址的所有權。但是請小心，不要簽署語意含糊不清的內容，因為釣魚式詐騙可能會用騙你簽署的手法來冒充是你。只有在語句中的細節你都同意時才簽署。</translation>
     </message>
     <message>
-        <source>The PND address to sign the message with</source>
+        <source>The PNDR address to sign the message with</source>
         <translation>用來簽署訊息的達世幣位址</translation>
     </message>
     <message>
@@ -2589,7 +2589,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>複製目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PND address</source>
+        <source>Sign the message to prove you own this PNDR address</source>
         <translation>簽署這個訊息來證明這個達世幣位址是你的</translation>
     </message>
     <message>
@@ -2613,11 +2613,11 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>請在下面輸入簽署的位址，訊息(請確定完整複製了所包含的換行，空格，跳位符號等等)，以及簽章，來驗證這個訊息。請小心，除了訊息內容以外，不要對簽章本身過度解讀，以避免被用「中間人攻擊法」詐騙。</translation>
     </message>
     <message>
-        <source>The PND address the message was signed with</source>
+        <source>The PNDR address the message was signed with</source>
         <translation>簽署這個訊息的達世幣位址</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PND address</source>
+        <source>Verify the message to ensure it was signed with the specified PNDR address</source>
         <translation>驗證這個訊息來確定是用指定的達世幣位址簽署的</translation>
     </message>
     <message>

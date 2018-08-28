@@ -14,7 +14,7 @@ bash pandora_install.sh
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps:  
 1. Open the Pandora Desktop Wallet.  
 2. Go to RECEIVE and create a New Address: **MN1**  
-3. Send **1000** PND to **MN1**. You need to send all 1000 coins in one single transaction.
+3. Send **1000** PNDR to **MN1**. You need to send all 1000 coins in one single transaction.
 4. Wait for 15 confirmations.  
 5. Go to **Help -> "Debug Window - Console"**  
 6. Type the following command: **masternode outputs**  
@@ -75,7 +75,7 @@ systemctl is-enabled Pandora #To check if Pandora2 service is enabled on boot
 
 Any donation is highly appreciated
 
-**PND**: WkYKuTKs6aVcHSNDvSqUbVvGP63s8ZfkNd  
+**PNDR**: WkYKuTKs6aVcHSNDvSqUbVvGP63s8ZfkNd  
 **BTC**: 3MQLEcHXVvxpmwbB811qiC1c6g21ZKa7Jh  
 **ETH**: 0x26B9dDa0616FE0759273D651e77Fe7dd7751E01E  
 **LTC**: LNZpK4rCd1JVSB3rGKTAnTkudV9So9zexB  

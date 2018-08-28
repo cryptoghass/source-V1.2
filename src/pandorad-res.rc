@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "PND"
-            VALUE "FileDescription",    "pandorad (OSS daemon/client for PND)"
+            VALUE "CompanyName",        "PNDR"
+            VALUE "FileDescription",    "pandorad (OSS daemon/client for PNDR)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "pandorad"
             VALUE "LegalCopyright",     COPYRIGHT_STR

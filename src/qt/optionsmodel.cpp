@@ -62,7 +62,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::PND);
+        settings.setValue("nDisplayUnit", BitcoinUnits::PNDR);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -76,11 +76,11 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
 
-    if (!settings.contains("nAnonymizePNDAmount"))
-        settings.setValue("nAnonymizePNDAmount", 1000);
+    if (!settings.contains("nAnonymizePNDRAmount"))
+        settings.setValue("nAnonymizePNDRAmount", 1000);
 
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    nAnonymizePNDAmount = settings.value("nAnonymizePNDAmount").toLongLong();
+    nAnonymizePNDRAmount = settings.value("nAnonymizePNDRAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -147,8 +147,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-Darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizePNDAmount"))
-        SoftSetArg("-anonymizepandoraamount", settings.value("nAnonymizePNDAmount").toString().toStdString());
+    if (settings.contains("nAnonymizePNDRAmount"))
+        SoftSetArg("-anonymizepandoraamount", settings.value("nAnonymizePNDRAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -228,8 +228,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizePNDAmount:
-            return QVariant(nAnonymizePNDAmount);
+        case AnonymizePNDRAmount:
+            return QVariant(nAnonymizePNDRAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -338,10 +338,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit DarksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizePNDAmount:
-            nAnonymizePNDAmount = value.toInt();
-            settings.setValue("nAnonymizePNDAmount", nAnonymizePNDAmount);
-            emit anonymizePNDAmountChanged(nAnonymizePNDAmount);
+        case AnonymizePNDRAmount:
+            nAnonymizePNDRAmount = value.toInt();
+            settings.setValue("nAnonymizePNDRAmount", nAnonymizePNDRAmount);
+            emit anonymizePNDRAmountChanged(nAnonymizePNDRAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

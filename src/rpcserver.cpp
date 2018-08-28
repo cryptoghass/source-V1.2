@@ -300,7 +300,7 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* PND features */
+        /* PNDR features */
         {"pandora", "masternode", &masternode, true, true, false},
         {"pandora", "masternodelist", &masternodelist, true, true, false},
         {"pandora", "mnbudget", &mnbudget, true, true, false},

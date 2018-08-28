@@ -563,7 +563,7 @@ void CNode::copyStats(CNodeStats& stats)
         nPingUsecWait = GetTimeMicros() - nPingUsecStart;
     }
 
-    // Raw ping time is in microseconds, but show it to user as whole seconds (PND users should be well used to small numbers with many decimal places by now :)
+    // Raw ping time is in microseconds, but show it to user as whole seconds (PNDR users should be well used to small numbers with many decimal places by now :)
     stats.dPingTime = (((double)nPingUsecTime) / 1e6);
     stats.dPingWait = (((double)nPingUsecWait) / 1e6);
 
@@ -1020,7 +1020,7 @@ void ThreadMapPort()
             }
         }
 
-        string strDesc = "PND " + FormatFullVersion();
+        string strDesc = "PNDR " + FormatFullVersion();
 
         try {
             while (true) {

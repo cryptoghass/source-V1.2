@@ -62,12 +62,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your PND addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše PND adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+        <source>These are your PNDR addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše PNDR adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your PND addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú Vaše PND adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+        <source>These are your PNDR addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše PNDR adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>PND will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pandoras from being stolen by malware infecting your computer.</source>
-        <translation>PNDCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
+        <source>PNDR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pandoras from being stolen by malware infecting your computer.</source>
+        <translation>PNDRCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a PND address</source>
-        <translation>Poslať mince na PND adresu</translation>
+        <source>Send coins to a PNDR address</source>
+        <translation>Poslať mince na PNDR adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -264,7 +264,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and pandora: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a PND: URI)</translation>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a PNDR: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <source>Modify configuration options for PND</source>
-        <translation>Upraviť možnosti konfigurácie pre PND</translation>
+        <source>Modify configuration options for PNDR</source>
+        <translation>Upraviť možnosti konfigurácie pre PNDR</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your PND addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi PND adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your PNDR addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi PNDR adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PND addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými PND adresami</translation>
+        <source>Verify messages to ensure they were signed with specified PNDR addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými PNDR adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
-        <source>Show the Pandora Core help message to get a list with possible PND command-line options</source>
-        <translation>Zobraziť Pandora Core nápovedu k získaniu zoznamu možností príkazového riadku PND.</translation>
+        <source>Show the Pandora Core help message to get a list with possible PNDR command-line options</source>
+        <translation>Zobraziť Pandora Core nápovedu k získaniu zoznamu možností príkazového riadku PNDR.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to PND network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou PND</numerusform><numerusform>%n aktívne spojenia so sieťou PND</numerusform><numerusform>%n aktívnych spojení so sieťou PND</numerusform></translation>
+        <source>%n active connection(s) to PNDR network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou PNDR</numerusform><numerusform>%n aktívne spojenia so sieťou PNDR</numerusform><numerusform>%n aktívnych spojení so sieťou PNDR</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -895,16 +895,16 @@ Adresa: %4</translation>
         <translation>Konfigurácia Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PND's configuration screen.</source>
-        <translation>Obfuscate bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky PND.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PNDR's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky PNDR.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PND's configuration screen.</source>
-        <translation>Obfuscate bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky PND.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PNDR's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky PNDR.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PND's configuration screen.</source>
-        <translation>Obfuscate bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky PND.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PNDR's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky PNDR.</translation>
     </message>
 </context>
 <context>
@@ -946,8 +946,8 @@ Adresa: %4</translation>
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PND address.</source>
-        <translation>Zadaná adresa "%1" nie je platná PND adresa.</translation>
+        <source>The entered address "%1" is not a valid PNDR address.</source>
+        <translation>Zadaná adresa "%1" nie je platná PNDR adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1055,8 +1055,8 @@ Adresa: %4</translation>
         <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Pandora Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Pandora Core will download and store a copy of the PND block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Pandora Core stiahne a uloží kópiu reťazca blokov PND. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>Pandora Core will download and store a copy of the PNDR block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Pandora Core stiahne a uloží kópiu reťazca blokov PNDR. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1121,12 +1121,12 @@ Adresa: %4</translation>
         <translation>&amp;Hlavné</translation>
     </message>
     <message>
-        <source>Automatically start PND after logging in to the system.</source>
-        <translation>Automaticky spustiť PND po prihlásení do systému.</translation>
+        <source>Automatically start PNDR after logging in to the system.</source>
+        <translation>Automaticky spustiť PNDR po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start PND on system login</source>
-        <translation>&amp;Spusť PND po prihlásení do systému</translation>
+        <source>&amp;Start PNDR on system login</source>
+        <translation>&amp;Spusť PNDR po prihlásení do systému</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1153,8 +1153,8 @@ Adresa: %4</translation>
         <translation>Táto suma slúži ako hranica pre vypnutie Obfuscate akonáhle je dosiahnutá</translation>
     </message>
     <message>
-        <source>Amount of PND to keep anonymized</source>
-        <translation>Suma PND ktorú držať anonymne </translation>
+        <source>Amount of PNDR to keep anonymized</source>
+        <translation>Suma PNDR ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1173,8 +1173,8 @@ Adresa: %4</translation>
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the PND network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa do siete PND cez proxy SOCKS5.</translation>
+        <source>Connect to the PNDR network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete PNDR cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1205,8 +1205,8 @@ Adresa: %4</translation>
         <translation>Sieť</translation>
     </message>
     <message>
-        <source>Automatically open the PND client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť na smerovači port pre PND klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
+        <source>Automatically open the PNDR client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť na smerovači port pre PNDR klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1257,8 +1257,8 @@ Adresa: %4</translation>
         <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PND.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní PND.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PNDR.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní PNDR.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1346,8 +1346,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PND network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou PND akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PNDR network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou PNDR akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1568,7 +1568,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
     </message>
     <message>
         <source>Cannot start pandora: click-to-pay handler</source>
-        <translation>PND sa nedá spustiť: click-to-pay handler</translation>
+        <translation>PNDR sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1587,8 +1587,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PND address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou PND adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid PNDR address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou PNDR adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1673,8 +1673,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a PND address (e.g. %1)</source>
-        <translation>Zadajte PND adresu (e.g. %1)</translation>
+        <source>Enter a PNDR address (e.g. %1)</source>
+        <translation>Zadajte PNDR adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1763,8 +1763,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Počet pripojení</translation>
     </message>
     <message>
-        <source>Open the PND debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvoriť denník ladenia PND zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
+        <source>Open the PNDR debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvoriť denník ladenia PNDR zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1971,8 +1971,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Von:</translation>
     </message>
     <message>
-        <source>Welcome to the PND RPC console.</source>
-        <translation>Vitajte v konzole PND RPC</translation>
+        <source>Welcome to the PNDR RPC console.</source>
+        <translation>Vitajte v konzole PNDR RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2034,8 +2034,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PND network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť PND.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PNDR network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť PNDR.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2046,8 +2046,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PND network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť PND.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PNDR network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť PNDR.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2292,7 +2292,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for pandora transactions than the network can process.</source>
-        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po PND transakciách väčší ako dokáže sieť PND spracovať.</translation>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po PNDR transakciách väčší ako dokáže sieť PNDR spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2495,8 +2495,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Platiť iba minimálny poplatok %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid PND address</source>
-        <translation>Upozornenie: Neplatná PND adresa</translation>
+        <source>Warning: Invalid PNDR address</source>
+        <translation>Upozornenie: Neplatná PNDR adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2518,8 +2518,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The PND address to send the payment to</source>
-        <translation>PND adresa pre poslanie platby</translation>
+        <source>The PNDR address to send the payment to</source>
+        <translation>PNDR adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2558,8 +2558,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the pandora: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PND network.</source>
-        <translation>Správa ktorá bola pripojená ku pandora: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť PND.</translation>
+        <source>A message that was attached to the pandora: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PNDR network.</source>
+        <translation>Správa ktorá bola pripojená ku pandora: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť PNDR.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,7 +2586,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
     <name>ShutdownWindow</name>
     <message>
         <source>Pandora Core is shutting down...</source>
-        <translation>PND core sa vypína...</translation>
+        <translation>PNDR core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2608,8 +2608,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k ich podpísaniu.</translation>
     </message>
     <message>
-        <source>The PND address to sign the message with</source>
-        <translation>PND adresa na podpísanie správy</translation>
+        <source>The PNDR address to sign the message with</source>
+        <translation>PNDR adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2640,8 +2640,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PND address</source>
-        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto PND adresu</translation>
+        <source>Sign the message to prove you own this PNDR address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto PNDR adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2664,12 +2664,12 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
-        <source>The PND address the message was signed with</source>
-        <translation>Adresa PND s ktorou bola podpísaná správa</translation>
+        <source>The PNDR address the message was signed with</source>
+        <translation>Adresa PNDR s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PND address</source>
-        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou PND adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified PNDR address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou PNDR adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3613,8 +3613,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
     </message>
     <message>
-        <source>Disable all PND specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Vypnúť všetky funkcie špecifické pre PND (Masternode, Obfuscate, InstantX, Rozpočty) (0-1, predvolené: %u)</translation>
+        <source>Disable all PNDR specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre PNDR (Masternode, Obfuscate, InstantX, Rozpočty) (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3718,7 +3718,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "PND Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "PNDR Alert" admin@foo.com
 </source>
         <translation>Pre použitie možnosti -server pre pandora-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
@@ -3729,7 +3729,7 @@ rpcpassword=%s
 Používateľské meno a heslo NEMÔŽU byť rovnaké.
 Ak súbor neexistuje, vytvoriť na nastaviť práva tak aby ho mohol čítať iba vlastník.
 Tiež sa doporučuje nastaviť alertnotify, aby ste boli upozornený na problém,
-napríklad: alertnotify=echo %%s | mail -s "PND Upozornenie" admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s "PNDR Upozornenie" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3800,7 +3800,7 @@ napríklad: alertnotify=echo %%s | mail -s "PND Upozornenie" admin@foo.com
     </message>
     <message>
         <source>Copyright (C) 2014-%i The Pandora Core Developers</source>
-        <translation>Autorské práva (C) 2014-%i Vývojári jadra PND</translation>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra PNDR</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

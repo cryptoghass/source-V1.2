@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "PND"
-            VALUE "FileDescription",    "PND-cli (OSS RPC client for PND)"
+            VALUE "CompanyName",        "PNDR"
+            VALUE "FileDescription",    "PNDR-cli (OSS RPC client for PNDR)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "pandora-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "pandora-cli.exe"
-            VALUE "ProductName",        "PND-cli"
+            VALUE "ProductName",        "PNDR-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

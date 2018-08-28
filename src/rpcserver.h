@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * PND RPC command dispatcher.
+ * PNDR RPC command dispatcher.
  */
 class CRPCTable
 {

@@ -62,12 +62,12 @@
         <translation>Адреси за получаване</translation>
     </message>
     <message>
-        <source>These are your PND addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите PND адреси за изпращане на плащания. Преди изпращане винаги проверявайте количеството и адреса за получаване на монетите.</translation>
+        <source>These are your PNDR addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите PNDR адреси за изпращане на плащания. Преди изпращане винаги проверявайте количеството и адреса за получаване на монетите.</translation>
     </message>
     <message>
-        <source>These are your PND addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите PND адреси за получаване на плащания. Препоръчително е да използвате нов адрес за всяка нова транзакция. </translation>
+        <source>These are your PNDR addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите PNDR адреси за получаване на плащания. Препоръчително е да използвате нов адрес за всяка нова транзакция. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
-        <source>PND will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pandoras from being stolen by malware infecting your computer.</source>
-        <translation>PND ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
+        <source>PNDR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pandoras from being stolen by malware infecting your computer.</source>
+        <translation>PNDR ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -232,7 +232,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Pandora Core</source>
-        <translation>PND Ядро</translation>
+        <translation>PNDR Ядро</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Изпращане</translation>
     </message>
     <message>
-        <source>Send coins to a PND address</source>
-        <translation>Изпращане на монети към PND адрес</translation>
+        <source>Send coins to a PNDR address</source>
+        <translation>Изпращане на монети към PNDR адрес</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -264,7 +264,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and pandora: URIs)</source>
-        <translation>Заявка за плащане (генерира QR кодове и PND: URI)</translation>
+        <translation>Заявка за плащане (генерира QR кодове и PNDR: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -284,7 +284,7 @@
     </message>
     <message>
         <source>&amp;About Pandora Core</source>
-        <translation>&amp;За PND ядрото</translation>
+        <translation>&amp;За PNDR ядрото</translation>
     </message>
     <message>
         <source>Show information about Pandora Core</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Опции...</translation>
     </message>
     <message>
-        <source>Modify configuration options for PND</source>
-        <translation>Промяна на опции за конфигуриране на PND</translation>
+        <source>Modify configuration options for PNDR</source>
+        <translation>Промяна на опции за конфигуриране на PNDR</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Подписване на &amp;съобщение...</translation>
     </message>
     <message>
-        <source>Sign messages with your PND addresses to prove you own them</source>
-        <translation>Подпиши съобщения с твоите PND адреси за да докажеш че ги притежаваш</translation>
+        <source>Sign messages with your PNDR addresses to prove you own them</source>
+        <translation>Подпиши съобщения с твоите PNDR адреси за да докажеш че ги притежаваш</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PND addresses</source>
-        <translation>Проверете съобщенията, за да сте сигурни че са подписани с определен PND адрес</translation>
+        <source>Verify messages to ensure they were signed with specified PNDR addresses</source>
+        <translation>Проверете съобщенията, за да сте сигурни че са подписани с определен PNDR адрес</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -444,7 +444,7 @@
     </message>
     <message>
         <source>Open a pandora: URI or payment request</source>
-        <translation>Отвори PND: URI или заявка за плащане</translation>
+        <translation>Отвори PNDR: URI или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -463,8 +463,8 @@
         <translation>Синхронизиране на допълнителни данни: %p%</translation>
     </message>
     <message>
-        <source>Show the Pandora Core help message to get a list with possible PND command-line options</source>
-        <translation>Покажи съобщението за помощ на PND ядрото за да получиш списък на възможните опции за командния ред</translation>
+        <source>Show the Pandora Core help message to get a list with possible PNDR command-line options</source>
+        <translation>Покажи съобщението за помощ на PNDR ядрото за да получиш списък на възможните опции за командния ред</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Лента с инструменти</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to PND network</source>
-        <translation><numerusform>%n активни връзки към PND мрежата</numerusform><numerusform>%n активни връзки към PND мрежата</numerusform></translation>
+        <source>%n active connection(s) to PNDR network</source>
+        <translation><numerusform>%n активни връзки към PNDR мрежата</numerusform><numerusform>%n активни връзки към PNDR мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -896,16 +896,16 @@ Address: %4
         <translation>Настройка на Obfuscate </translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PND's configuration screen.</source>
-        <translation>Obfuscate беше успешно настроен на режим основен (%1 и 2 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на PND.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PNDR's configuration screen.</source>
+        <translation>Obfuscate беше успешно настроен на режим основен (%1 и 2 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на PNDR.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PND's configuration screen.</source>
-        <translation>Obfuscate  беше успешно настроен на режим висок (%1 и 8 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на PND.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PNDR's configuration screen.</source>
+        <translation>Obfuscate  беше успешно настроен на режим висок (%1 и 8 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на PNDR.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PND's configuration screen.</source>
-        <translation>Obfuscate беше успешно настроен на режим максимум (%1 и 16 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на PND.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PNDR's configuration screen.</source>
+        <translation>Obfuscate беше успешно настроен на режим максимум (%1 и 16 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на PNDR.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Address: %4
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PND address.</source>
-        <translation>Въведеният адрес "%1" не е валиден PND адрес.</translation>
+        <source>The entered address "%1" is not a valid PNDR address.</source>
+        <translation>Въведеният адрес "%1" не е валиден PNDR адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -990,7 +990,7 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <source>Pandora Core</source>
-        <translation>PND ядро</translation>
+        <translation>PNDR ядро</translation>
     </message>
     <message>
         <source>version</source>
@@ -1002,7 +1002,7 @@ Address: %4
     </message>
     <message>
         <source>About Pandora Core</source>
-        <translation>За PND ядрото</translation>
+        <translation>За PNDR ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1049,15 +1049,15 @@ Address: %4
     </message>
     <message>
         <source>Welcome to Pandora Core.</source>
-        <translation>Добре дошли в ядрото на PND.</translation>
+        <translation>Добре дошли в ядрото на PNDR.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Pandora Core will store its data.</source>
-        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде PND да съхранява своята информация.</translation>
+        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде PNDR да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>Pandora Core will download and store a copy of the PND block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PND ще свали и съхрани копие на PND регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
+        <source>Pandora Core will download and store a copy of the PNDR block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PNDR ще свали и съхрани копие на PNDR регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1069,7 +1069,7 @@ Address: %4
     </message>
     <message>
         <source>Pandora Core</source>
-        <translation>PND ядро</translation>
+        <translation>PNDR ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Address: %4
         <translation>&amp;Основни</translation>
     </message>
     <message>
-        <source>Automatically start PND after logging in to the system.</source>
-        <translation>Автоматично стартиране на PND след влизане в системата.</translation>
+        <source>Automatically start PNDR after logging in to the system.</source>
+        <translation>Автоматично стартиране на PNDR след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start PND on system login</source>
-        <translation>&amp;Стартирне на PND при влизане в системата.</translation>
+        <source>&amp;Start PNDR on system login</source>
+        <translation>&amp;Стартирне на PNDR при влизане в системата.</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1147,15 +1147,15 @@ Address: %4
     </message>
     <message>
         <source>Obfuscate rounds to use</source>
-        <translation>Използвани PND цикли</translation>
+        <translation>Използвани PNDR цикли</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off Obfuscate once it's reached.</source>
         <translation>Тази сума действа като праг, за да се изключи Obfuscate, когато той е достигнат.</translation>
     </message>
     <message>
-        <source>Amount of PND to keep anonymized</source>
-        <translation>Постоянно поддържано количество анонимни PND монети </translation>
+        <source>Amount of PNDR to keep anonymized</source>
+        <translation>Постоянно поддържано количество анонимни PNDR монети </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Address: %4
         <translation>Разрешени входящи връзки</translation>
     </message>
     <message>
-        <source>Connect to the PND network through a SOCKS5 proxy.</source>
-        <translation>Свързване с мрежата на PND чрез SOCKS5 прокси.</translation>
+        <source>Connect to the PNDR network through a SOCKS5 proxy.</source>
+        <translation>Свързване с мрежата на PNDR чрез SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Address: %4
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>Automatically open the PND client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваря порта за PND клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
+        <source>Automatically open the PNDR client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваря порта за PNDR клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,8 +1258,8 @@ Address: %4
         <translation>Език на потребителски &amp;изглед :</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PND.</source>
-        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на PND.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PNDR.</source>
+        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на PNDR.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1347,8 +1347,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PND network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с PND мрежата, но този процес все още не е завършен.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PNDR network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с PNDR мрежата, но този процес все още не е завършен.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Невалиден адрес за плащане %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PND address or malformed URI parameters.</source>
-        <translation>Грешка при анализ на URI! Това може да е следствие от неправилен PND адрес или неправилно зададени URI параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid PNDR address or malformed URI parameters.</source>
+        <translation>Грешка при анализ на URI! Това може да е следствие от неправилен PNDR адрес или неправилно зададени URI параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a PND address (e.g. %1)</source>
-        <translation>Въведете PND адрес (напр.%1)</translation>
+        <source>Enter a PNDR address (e.g. %1)</source>
+        <translation>Въведете PNDR адрес (напр.%1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,8 +1764,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Брой връзки</translation>
     </message>
     <message>
-        <source>Open the PND debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отваря файла за откриване на грешки на PND от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
+        <source>Open the PNDR debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отваря файла за откриване на грешки на PNDR от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Изход:</translation>
     </message>
     <message>
-        <source>Welcome to the PND RPC console.</source>
-        <translation>Добре дошли в PND RPC (Remote Procedure Call) конзолата.</translation>
+        <source>Welcome to the PNDR RPC console.</source>
+        <translation>Добре дошли в PNDR RPC (Remote Procedure Call) конзолата.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>П&amp;овторно използване на съществуващ адрес за получаване (не се препоръчва)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PND network.</source>
-        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на PND.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PNDR network.</source>
+        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на PNDR.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Възможност да се прикрепи наименование към новия адрес за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PND network.</source>
-        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на PND.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PNDR network.</source>
+        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на PNDR.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Плати само минималната такса от %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid PND address</source>
-        <translation>Внимание: Невалиден PND адрес</translation>
+        <source>Warning: Invalid PNDR address</source>
+        <translation>Внимание: Невалиден PNDR адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Плати &amp;На:</translation>
     </message>
     <message>
-        <source>The PND address to send the payment to</source>
-        <translation>PND адресът да изпрати плащането към </translation>
+        <source>The PNDR address to send the payment to</source>
+        <translation>PNDR адресът да изпрати плащането към </translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the pandora: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PND network.</source>
-        <translation>Съобщението което беше прикрепено към pandora: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през PND мрежата.</translation>
+        <source>A message that was attached to the pandora: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PNDR network.</source>
+        <translation>Съобщението което беше прикрепено към pandora: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през PNDR мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2587,7 +2587,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
     <name>ShutdownWindow</name>
     <message>
         <source>Pandora Core is shutting down...</source>
-        <translation>PND ядрото се изключва...</translation>
+        <translation>PNDR ядрото се изключва...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Можете да подпишете съобщение като доказателство, че притежавате определен адрес. Бъдете внимателни и не подписвайте съобщения, които биха разкрили лична информация без вашето съгласие.</translation>
     </message>
     <message>
-        <source>The PND address to sign the message with</source>
-        <translation>PND адресът да подпише съобщението</translation>
+        <source>The PNDR address to sign the message with</source>
+        <translation>PNDR адресът да подпише съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Копиране на текущия подпис в системния клипборд</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PND address</source>
-        <translation>Подпиши съобщението за да докажеш че притежаваш този PND адрес</translation>
+        <source>Sign the message to prove you own this PNDR address</source>
+        <translation>Подпиши съобщението за да докажеш че притежаваш този PNDR адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Въведете подписания адрес, съобщението (уверете се, че сте копирали редовете, спациите, табовете и другите точно) и подпишете отдолу, за да удостоверите съобщението. Внимавайте да не вмъкнете излишни символи в подписа от това, което е в самото съобщение, за да избегнете риска от злонамерна външа намеса.</translation>
     </message>
     <message>
-        <source>The PND address the message was signed with</source>
-        <translation>PND адресът ,с който е подписано съобщението</translation>
+        <source>The PNDR address the message was signed with</source>
+        <translation>PNDR адресът ,с който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PND address</source>
-        <translation>Проверете съобщението, за да сте сигурни че е подписано с определен PND адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified PNDR address</source>
+        <translation>Проверете съобщението, за да сте сигурни че е подписано с определен PNDR адрес</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2737,7 +2737,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
     <name>SplashScreen</name>
     <message>
         <source>Pandora Core</source>
-        <translation>PND Ядро</translation>
+        <translation>PNDR Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2749,7 +2749,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
     </message>
     <message>
         <source>The Pandora Core developers</source>
-        <translation>Водещи PND разработчици</translation>
+        <translation>Водещи PNDR разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3327,7 +3327,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Pandora Core is probably already running.</source>
-        <translation>Не може да се заключи дата директорията %s. PND ядрото вече работи.</translation>
+        <translation>Не може да се заключи дата директорията %s. PNDR ядрото вече работи.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3383,7 +3383,7 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Pandora Core is probably already running.</source>
-        <translation>Не може да се свърже с %s на този компютър. PND ядрото най-вероятно вече работи.</translation>
+        <translation>Не може да се свърже с %s на този компютър. PNDR ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/pandora-crypto/pandora-wallet-translations/</translati
         <translation>Изтриване на всички транзакции на портфейла и  възстановява само тези части на блок веригата чрез -rescan при стартиране</translation>
     </message>
     <message>
-        <source>Disable all PND specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключване на всички специфични PND функции (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, по подразбиране: %u)</translation>
+        <source>Disable all PNDR specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключване на всички специфични PNDR функции (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3719,9 +3719,9 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "PND Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "PNDR Alert" admin@foo.com
 </source>
-        <translation>За използване на pandorad, или the -server опция към pandora-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=pandorarpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "PND Alert" admin@foo.com 
+        <translation>За използване на pandorad, или the -server опция към pandora-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=pandorarpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "PNDR Alert" admin@foo.com 
 </translation>
     </message>
     <message>
@@ -3896,7 +3896,7 @@ for example: alertnotify=echo %%s | mail -s "PND Alert" admin@foo.com
     </message>
     <message>
         <source>Initialization sanity check failed. Pandora Core is shutting down.</source>
-        <translation>Инициализационната проверка не успешна. PND ядрото се изключва.</translation>
+        <translation>Инициализационната проверка не успешна. PNDR ядрото се изключва.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4148,7 +4148,7 @@ for example: alertnotify=echo %%s | mail -s "PND Alert" admin@foo.com
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Pandora Core to complete</source>
-        <translation>Портфейлът трябва да бъде презаписан: рестартирайте PND за да завършите</translation>
+        <translation>Портфейлът трябва да бъде презаписан: рестартирайте PNDR за да завършите</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4208,7 +4208,7 @@ for example: alertnotify=echo %%s | mail -s "PND Alert" admin@foo.com
     </message>
     <message>
         <source>Keep N DNET anonymized (default: %u)</source>
-        <translation>Поддържай N PND анонимизирани (по подразбиране: %u)</translation>
+        <translation>Поддържай N PNDR анонимизирани (по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

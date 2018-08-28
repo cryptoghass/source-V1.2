@@ -59,7 +59,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget* parent) : QDialog(parent),
     connect(ui->splitBlockCheckBox, SIGNAL(stateChanged(int)), this, SLOT(splitBlockChecked(int)));
     connect(ui->splitBlockLineEdit, SIGNAL(textChanged(const QString&)), this, SLOT(splitBlockLineEditChanged(const QString&)));
 
-    // PND specific
+    // PNDR specific
     QSettings settings;
     if (!settings.contains("bUseDarKsend"))
         settings.setValue("bUseDarKsend", false);
@@ -885,7 +885,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
             ui->labelCoinControlChangeLabel->setText("");
         } else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid PND address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid PNDR address"));
         } else // Valid address
         {
             CPubKey pubkey;

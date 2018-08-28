@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between pandora-cli and pandorad)
- * of a given instance of the PND system.
+ * of a given instance of the PNDR system.
  */
 class CBaseChainParams
 {

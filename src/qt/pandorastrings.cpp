@@ -74,10 +74,10 @@ static const char UNUSED* pandora_strings[] = {
                                    "Execute command when the best block changes (%s in cmd is replaced by block "
                                    "hash)"),
     QT_TRANSLATE_NOOP("pandora-core", ""
-                                   "Fees (in PND/Kb) smaller than this are considered zero fee for relaying "
+                                   "Fees (in PNDR/Kb) smaller than this are considered zero fee for relaying "
                                    "(default: %s)"),
     QT_TRANSLATE_NOOP("pandora-core", ""
-                                   "Fees (in PND/Kb) smaller than this are considered zero fee for transaction "
+                                   "Fees (in PNDR/Kb) smaller than this are considered zero fee for transaction "
                                    "creation (default: %s)"),
     QT_TRANSLATE_NOOP("pandora-core", ""
                                    "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -167,10 +167,10 @@ static const char UNUSED* pandora_strings[] = {
                                    "Unable to locate enough Darksend denominated funds for this transaction."),
     QT_TRANSLATE_NOOP("pandora-core", ""
                                    "Unable to locate enough Darksend non-denominated funds for this "
-                                   "transaction that are not equal 10000 PND."),
+                                   "transaction that are not equal 10000 PNDR."),
     QT_TRANSLATE_NOOP("pandora-core", ""
                                    "Unable to locate enough funds for this transaction that are not equal 10000 "
-                                   "PND."),
+                                   "PNDR."),
     QT_TRANSLATE_NOOP("pandora-core", ""
                                    "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
                                    "%s)"),
@@ -267,7 +267,7 @@ static const char UNUSED* pandora_strings[] = {
     QT_TRANSLATE_NOOP("pandora-core", "Error: You already have pending entries in the Darksend pool"),
     QT_TRANSLATE_NOOP("pandora-core", "Failed to listen on any port. Use -listen=0 if you want this."),
     QT_TRANSLATE_NOOP("pandora-core", "Failed to read block"),
-    QT_TRANSLATE_NOOP("pandora-core", "Fee (in PND/kB) to add to transactions you send (default: %s)"),
+    QT_TRANSLATE_NOOP("pandora-core", "Fee (in PNDR/kB) to add to transactions you send (default: %s)"),
     QT_TRANSLATE_NOOP("pandora-core", "Finalizing transaction."),
     QT_TRANSLATE_NOOP("pandora-core", "Force safe mode (default: %u)"),
     QT_TRANSLATE_NOOP("pandora-core", "Found enough users, signing ( waiting %s )"),
@@ -300,7 +300,7 @@ static const char UNUSED* pandora_strings[] = {
     QT_TRANSLATE_NOOP("pandora-core", "Invalid script detected."),
     QT_TRANSLATE_NOOP("pandora-core", "KeePassHttp id for the established association"),
     QT_TRANSLATE_NOOP("pandora-core", "KeePassHttp key for AES encrypted communication with KeePass"),
-    QT_TRANSLATE_NOOP("pandora-core", "Keep N PND anonymized (default: %u)"),
+    QT_TRANSLATE_NOOP("pandora-core", "Keep N PNDR anonymized (default: %u)"),
     QT_TRANSLATE_NOOP("pandora-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
     QT_TRANSLATE_NOOP("pandora-core", "Last Darksend was too recent."),
     QT_TRANSLATE_NOOP("pandora-core", "Last successful Darksend action was too recent."),

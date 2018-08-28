@@ -1,14 +1,14 @@
-.TH PNDD "1" "February 2017" "pandorad 2.1.4.1"
+.TH PNDRD "1" "February 2017" "pandorad 2.1.4.1"
 .SH NAME
-PND \- peer-to-peer network based digital currency
+PNDR \- peer-to-peer network based digital currency
 .SH SYNOPSIS
 pandorad [options] <command> [params]
 .TP
 pandorad [options] help <command> \- Get help for a command
 .SH DESCRIPTION
-This  manual page documents the pandorad program. PND is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:
+This  manual page documents the pandorad program. PNDR is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:
 
-PND can be sent easily through the Internet, without having to trust middlemen. Transactions are designed to be irreversible. Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the PND system’s money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.
+PNDR can be sent easily through the Internet, without having to trust middlemen. Transactions are designed to be irreversible. Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the PNDR system’s money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.
 
 .SH OPTIONS
 .TP
@@ -112,7 +112,7 @@ Returns the number of connections to other nodes.
 Returns the proof-of-work difficulty as a multiple of the minimum difficulty.
 .TP
 \fBgetgenerate\fR
-Returns boolean true if server is trying to generate PND, false otherwise.
+Returns boolean true if server is trying to generate PNDR, false otherwise.
 .TP
 \fBsetgenerate 'generate' ['genproclimit']\fR
 Generation is limited to ['genproclimit'] processors, \-1 is unlimited.
@@ -183,7 +183,7 @@ Returns a list of the last ['count'] transactions for 'account' \- for all accou
 Moves funds between accounts.
 .TP
 \fBsendfrom* <'account'> <'pandoraaddress'> <'amount'> ['minconf=1'] ['comment'] ['comment-to']\fR
-Sends amount from account's balance to 'pandoraaddress'. This method will fail if there is less than amount PND with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
+Sends amount from account's balance to 'pandoraaddress'. This method will fail if there is less than amount PNDR with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
 .TP
 \fBsendtoaddress 'pandoraaddress' 'amount' ['comment'] ['comment-to']\fR
 Sends amount from the server's available balance to 'pandoraaddress'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.
@@ -192,7 +192,7 @@ Sends amount from the server's available balance to 'pandoraaddress'. amount is 
 Stops the pandora server.
 .TP
 \fBvalidateaddress 'pandoraaddress'\fR
-Checks that 'pandoraaddress' looks like a proper PND address. Returns an object containing:
+Checks that 'pandoraaddress' looks like a proper PNDR address. Returns an object containing:
 
     "isvalid" : true or false.
     "ismine"  : true if the address is in the server's wallet.

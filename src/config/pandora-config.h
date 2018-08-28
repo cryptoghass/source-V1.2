@@ -1,9 +1,9 @@
 /* src/config/pandora-config.h.  Generated from pandora-config.h.in by configure.  */
 /* src/config/pandora-config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef PND_CONFIG_H
+#ifndef PNDR_CONFIG_H
 
-#define PND_CONFIG_H
+#define PNDR_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
@@ -346,4 +346,4 @@
 /* Define for large files, on AIX-style hosts. */
 /* #undef _LARGE_FILES */
 
-#endif //PND_CONFIG_H
+#endif //PNDR_CONFIG_H

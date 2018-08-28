@@ -50,9 +50,9 @@ Var StartMenuGroup
 # Installer attributes
 OutFile @abs_top_srcdir@/pandora-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
-InstallDir $PROGRAMFILES64\PND
+InstallDir $PROGRAMFILES64\PNDR
 !else
-InstallDir $PROGRAMFILES\PND
+InstallDir $PROGRAMFILES\PNDR
 !endif
 CRCCheck on
 XPStyle on
@@ -107,7 +107,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "pandora" "URL Protocol" ""
-    WriteRegStr HKCR "pandora" "" "URL:PND"
+    WriteRegStr HKCR "pandora" "" "URL:PNDR"
     WriteRegStr HKCR "pandora\DefaultIcon" "" $INSTDIR\pandora-qt.exe
     WriteRegStr HKCR "pandora\shell\open\command" "" '"$INSTDIR\pandora-qt.exe" "%1"'
 SectionEnd
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\PND.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\PNDR.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

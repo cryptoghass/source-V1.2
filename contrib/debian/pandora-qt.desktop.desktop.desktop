@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=PND
-Comment=PND P2P Cryptocurrency
+Name=PNDR
+Comment=PNDR P2P Cryptocurrency
 Exec=pandora-qt %u
 Terminal=false
 Type=Application

@@ -35,7 +35,7 @@ void SendMoney(const CTxDestination& address, CAmount nValue, CWalletTx& wtxNew,
         throw JSONRPCError(RPC_WALLET_ERROR, strError);
     }
 
-    // Parse PND address
+    // Parse PNDR address
     CScript scriptPubKey = GetScriptForDestination(address);
 
     // Create and send the transaction

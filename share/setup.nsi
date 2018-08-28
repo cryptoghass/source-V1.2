@@ -10,11 +10,11 @@ SetCompressor /SOLID lzma
 !define URL http://bit.pandoras/
 
 # MUI Symbol Definitions
-!define MUI_ICON "/root/PND/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/root/PND/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/root/PNDR/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/root/PNDR/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/root/PND/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/root/PNDR/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
@@ -22,7 +22,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "Pandora Core"
 !define MUI_FINISHPAGE_RUN $INSTDIR\pandora-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/root/PND/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/root/PNDR/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,11 +48,11 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /root/PND/pandora-${VERSION}-win-setup.exe
+OutFile /root/PNDR/pandora-${VERSION}-win-setup.exe
 !if "" == "64"
-InstallDir $PROGRAMFILES64\PND
+InstallDir $PROGRAMFILES64\PNDR
 !else
-InstallDir $PROGRAMFILES\PND
+InstallDir $PROGRAMFILES\PNDR
 !endif
 CRCCheck on
 XPStyle on
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /root/PND/release/pandora-qt.exe
-    File /oname=COPYING.txt /root/PND/COPYING
-    File /oname=readme.txt /root/PND/doc/README_windows.txt
+    File /root/PNDR/release/pandora-qt.exe
+    File /oname=COPYING.txt /root/PNDR/COPYING
+    File /oname=readme.txt /root/PNDR/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /root/PND/release/pandorad.exe
-    File /root/PND/release/pandora-cli.exe
+    File /root/PNDR/release/pandorad.exe
+    File /root/PNDR/release/pandora-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /root/PND/doc\*.*
+    File /r /root/PNDR/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
@@ -107,7 +107,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "pandora" "URL Protocol" ""
-    WriteRegStr HKCR "pandora" "" "URL:PND"
+    WriteRegStr HKCR "pandora" "" "URL:PNDR"
     WriteRegStr HKCR "pandora\DefaultIcon" "" $INSTDIR\pandora-qt.exe
     WriteRegStr HKCR "pandora\shell\open\command" "" '"$INSTDIR\pandora-qt.exe" "%1"'
 SectionEnd
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\PND.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\PNDR.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

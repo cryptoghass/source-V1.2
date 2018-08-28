@@ -17,7 +17,7 @@ BITCOIND_GROUP=${BITCOIND_GROUP:-pandora}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/pandorad}
 
 name="Pandora Core Daemon"
-description="PND crypto-currency p2p network daemon"
+description="PNDR crypto-currency p2p network daemon"
 
 command="/usr/bin/pandorad"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"PND Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"PNDR Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

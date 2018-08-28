@@ -34,7 +34,7 @@ class TxViewDelegate2 : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate2() : QAbstractItemDelegate(), unit(BitcoinUnits::PND)
+    TxViewDelegate2() : QAbstractItemDelegate(), unit(BitcoinUnits::PNDR)
     {
     }
 
@@ -275,7 +275,7 @@ void Coinmix::setWalletModel(WalletModel* model)
         //connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("PND")
+    // update the display unit, to not use the default ("PNDR")
     //updateDisplayUnit();
 }
 
@@ -320,15 +320,15 @@ void Coinmix::updateDarksendProgress()
     if (!pwalletMain) return;
 
     QString strAmountAndRounds;
-    QString strAnonymizePNDAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizePNDAmount * COIN, false, BitcoinUnits::separatorAlways);
+    QString strAnonymizePNDRAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizePNDRAmount * COIN, false, BitcoinUnits::separatorAlways);
 
     if (currentBalance == 0) {
         ui->DarksendProgress->setValue(0);
         ui->DarksendProgress->setToolTip(tr("No inputs detected"));
 
         // when balance is zero just show info from settings
-        strAnonymizePNDAmount = strAnonymizePNDAmount.remove(strAnonymizePNDAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizePNDAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
+        strAnonymizePNDRAmount = strAnonymizePNDRAmount.remove(strAnonymizePNDRAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizePNDRAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
 
         ui->labelAmountRounds->setToolTip(tr("No inputs detected"));
         ui->labelAmountRounds->setText(strAmountAndRounds);
@@ -355,20 +355,20 @@ void Coinmix::updateDarksendProgress()
     CAmount nMaxToAnonymize = nAnonymizableBalance + currentAnonymizedBalance + nDenominatedUnconfirmedBalance;
 
     // If it's more than the anon threshold, limit to that.
-    if (nMaxToAnonymize > nAnonymizePNDAmount * COIN) nMaxToAnonymize = nAnonymizePNDAmount * COIN;
+    if (nMaxToAnonymize > nAnonymizePNDRAmount * COIN) nMaxToAnonymize = nAnonymizePNDRAmount * COIN;
 
     if (nMaxToAnonymize == 0) return;
 
-    if (nMaxToAnonymize >= nAnonymizePNDAmount * COIN) {
+    if (nMaxToAnonymize >= nAnonymizePNDRAmount * COIN) {
         ui->labelAmountRounds->setToolTip(tr("Found enough compatible inputs to anonymize %1")
-                                              .arg(strAnonymizePNDAmount));
-        strAnonymizePNDAmount = strAnonymizePNDAmount.remove(strAnonymizePNDAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizePNDAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
+                                              .arg(strAnonymizePNDRAmount));
+        strAnonymizePNDRAmount = strAnonymizePNDRAmount.remove(strAnonymizePNDRAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizePNDRAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
     } else {
         QString strMaxToAnonymize = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nMaxToAnonymize, false, BitcoinUnits::separatorAlways);
         ui->labelAmountRounds->setToolTip(tr("Not enough compatible inputs to anonymize <span style='color:red;'>%1</span>,<br>"
                                              "will anonymize <span style='color:red;'>%2</span> instead")
-                                              .arg(strAnonymizePNDAmount)
+                                              .arg(strAnonymizePNDRAmount)
                                               .arg(strMaxToAnonymize));
         strMaxToAnonymize = strMaxToAnonymize.remove(strMaxToAnonymize.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
         strAmountAndRounds = "<span style='color:red;'>" +
@@ -539,7 +539,7 @@ void Coinmix::toggleDarksend()
 
         //show Darksend configuration if client has defaults set 
 
-        if (nAnonymizePNDAmount == 0) {
+        if (nAnonymizePNDRAmount == 0) {
             DarksendConfig dlg(this);
             dlg.setModel(walletModel);
             dlg.exec();
