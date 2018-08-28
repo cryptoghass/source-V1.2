@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PND
+Comment=PND P2P Cryptocurrency
+Exec=pandora-qt %u
+Terminal=false
+Type=Application
+Icon=pandora128
+MimeType=x-scheme-handler/pandora;
+Categories=Office;Finance;
+Name[en_US]=pandora-qt.desktop.desktop

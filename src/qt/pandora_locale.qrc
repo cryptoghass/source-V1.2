@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/pandora_bg.qm</file>
+        <file alias="de">locale/pandora_de.qm</file>
+        <file alias="en">locale/pandora_en.qm</file>
+        <file alias="es">locale/pandora_es.qm</file>
+        <file alias="fi">locale/pandora_fi.qm</file>
+        <file alias="fr">locale/pandora_fr.qm</file>
+        <file alias="it">locale/pandora_it.qm</file>
+        <file alias="ja">locale/pandora_ja.qm</file>
+        <file alias="pl">locale/pandora_pl.qm</file>
+        <file alias="pt">locale/pandora_pt.qm</file>
+        <file alias="ru">locale/pandora_ru.qm</file>
+        <file alias="sk">locale/pandora_sk.qm</file>
+        <file alias="sv">locale/pandora_sv.qm</file>
+        <file alias="vi">locale/pandora_vi.qm</file>
+        <file alias="zh_CN">locale/pandora_zh_CN.qm</file>
+        <file alias="zh_TW">locale/pandora_zh_TW.qm</file>
+    </qresource>
+</RCC>
